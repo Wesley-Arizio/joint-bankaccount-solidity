@@ -1,13 +1,8 @@
-# Sample Hardhat Project
+# Sample solidity project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+This is a basic smart contract for a joint bank account.
+The app consists of a shared account between owners that can make a deposit or withdraw (need approval of all owners);
 
 ```shell
-npx hardhat help
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
 ```
